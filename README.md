@@ -281,7 +281,7 @@ public class Main {
 
  - **Output**:
         ```
-       4
+         4
         ```
 
 
