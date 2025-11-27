@@ -347,6 +347,7 @@ public class Main {
   - **Input**:
         ```
         4 2
+    
         1 1 3 3
         ```
 
@@ -360,6 +361,7 @@ public class Main {
   - **Input**:
         ```
         4 2
+    
         0 4 7 10 13 
         ```
 
@@ -372,6 +374,7 @@ public class Main {
   - **Input**:
         ```
         3 1000000000
+    
         9 1000000009 2000000000 
         ```
 
