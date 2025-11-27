@@ -11,6 +11,8 @@ public class Main {
         int[] a = new int[l];
         int s;
 
+        if (o < 0)
+            o = Math.abs(o);
         a[0] = o;
 
         for (int i = 1; i < l; i++) {
@@ -28,7 +30,6 @@ public class Main {
             out.print(a[i] + " ");
     }
 }
-
 
 
 import java.io.PrintStream;
@@ -74,7 +75,7 @@ public class Main {
     public static PrintStream out = System.out;
     public static void main(String[] args) {
         int n = in.nextInt();
-        int d =in.nextInt();
+        long d =in.nextLong();
         int[] a = new int[n];
 
         for (int i = 0; i<n; i++)
@@ -83,7 +84,8 @@ public class Main {
         int k = 0;
         for (int i = 0; i<n; i++){
             for (int j = i+1; j<n; j++){
-                if (Math.abs(a[i]-a[j]) <= d)
+                long p = (long)Math.abs(a[i]-a[j]);
+                if (p <= d)
                     k++;
             }
         }
@@ -91,7 +93,6 @@ public class Main {
         out.print(k);
     }
 }
-
 
 
 import java.io.IOException;
