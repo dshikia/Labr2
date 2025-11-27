@@ -346,8 +346,8 @@ public class Main {
 
   - **Input**:
         ```
-         4 2
-         1 1 3 3
+        4 2
+        1 1 3 3
         ```
 
     - **Output**:
