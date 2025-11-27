@@ -358,9 +358,12 @@ public class Main {
 
 
   - **Input**:
+    
         ```
+    
         4 2
-        0 4 7 10 13 
+        0 4 7 10 13
+    
         ```
 
     - **Output**:
@@ -370,6 +373,7 @@ public class Main {
 
 
   - **Input**:
+    
         ```
     
         3 1000000000
